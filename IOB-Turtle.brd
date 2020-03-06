@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
@@ -66,7 +66,7 @@
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
-<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -74,21 +74,21 @@
 <wire x1="53.34" y1="20.32" x2="0" y2="20.32" width="0.3048" layer="46"/>
 <wire x1="0" y1="20.32" x2="0" y2="0" width="0.3048" layer="46"/>
 <wire x1="0" y1="0" x2="53.34" y2="0" width="0.3048" layer="46"/>
-<text x="2.286" y="5.461" size="1.27" layer="51" font="vector" rot="R90">IO4-IOB</text>
-<text x="18.288" y="0.889" size="1.016" layer="51" font="vector" rot="R90">v2.0</text>
-<text x="19.431" y="14.732" size="1.016" layer="51">Rev</text>
-<text x="19.304" y="10.922" size="1.016" layer="51">Norm</text>
-<text x="51.562" y="8.382" size="1.016" layer="51" rot="R90">O</text>
-<text x="19.304" y="3.429" size="1.016" layer="51" font="vector">Motor</text>
-<text x="49.403" y="5.715" size="1.778" layer="51" rot="R90">Turtle</text>
-<text x="51.562" y="13.462" size="1.016" layer="51" rot="R90">R</text>
-<text x="51.562" y="10.922" size="1.016" layer="51" rot="R90">N</text>
-<text x="51.562" y="5.842" size="1.016" layer="51" rot="R90">M</text>
+<text x="2.286" y="5.461" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
+<text x="18.288" y="0.889" size="1.016" layer="21" font="vector" rot="R90">v2.0</text>
+<text x="19.431" y="14.732" size="1.016" layer="21">Rev</text>
+<text x="19.304" y="10.922" size="1.016" layer="21">Norm</text>
+<text x="51.562" y="8.382" size="1.016" layer="21" rot="R90">O</text>
+<text x="19.304" y="3.429" size="1.016" layer="21" font="vector">Motor</text>
+<text x="49.403" y="5.715" size="1.778" layer="21" rot="R90">Turtle</text>
+<text x="51.562" y="13.462" size="1.016" layer="21" rot="R90">R</text>
+<text x="51.562" y="10.922" size="1.016" layer="21" rot="R90">N</text>
+<text x="51.562" y="5.842" size="1.016" layer="21" rot="R90">M</text>
 <text x="7.874" y="16.002" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="13.081" y="11.557" size="1.778" layer="22" font="vector" rot="MR180">Turtle
 Tortoise Driver</text>
-<text x="19.431" y="7.366" size="1.016" layer="51">Occ</text>
-<text x="4.318" y="6.604" size="0.8128" layer="51" font="vector" rot="R90">2020-03</text>
+<text x="19.431" y="7.366" size="1.016" layer="21">Occ</text>
+<text x="4.318" y="6.604" size="0.8128" layer="21" font="vector" rot="R90">2020-03</text>
 <text x="0" y="21.59" size="1.778" layer="48" font="vector" ratio="10">Green Soldermask
 White Silkscreen</text>
 <text x="40.005" y="5.715" size="0.254" layer="125" font="vector" rot="R270">D1</text>
