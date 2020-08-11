@@ -22,9 +22,9 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -44,11 +44,11 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="56" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -67,10 +67,10 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="Anatomie" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Hidden" color="57" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Changes" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Hidden" color="57" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Changes" color="13" fill="1" visible="no" active="yes"/>
 <layer number="103" name="tMap" color="29" fill="4" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
@@ -167,12 +167,12 @@
 <text x="73.533" y="13.335" size="1.778" layer="21" rot="R90">Turtle</text>
 <text x="77.343" y="23.622" size="1.016" layer="21" rot="R180">Rev</text>
 <text x="77.343" y="20.447" size="1.016" layer="21" rot="R180">Norm</text>
-<text x="33.274" y="24.892" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
+<text x="35.179" y="24.892" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="38.481" y="20.447" size="1.778" layer="22" font="vector" rot="MR180">Turtle
 Tortoise Driver</text>
 <text x="41.021" y="14.986" size="1.016" layer="21">Occ</text>
 <text x="29.718" y="15.494" size="0.8128" layer="21" font="vector" rot="R90">2020-08</text>
-<text x="22.86" y="11.43" size="1.27" layer="48" font="vector" ratio="10" rot="R90">Green Soldermask
+<text x="22.86" y="11.43" size="1.27" layer="21" font="vector" ratio="10" rot="R90">Green Soldermask
 White Silkscreen</text>
 <text x="77.343" y="14.097" size="1.016" layer="21" rot="R180">Mot</text>
 <text x="54.61" y="21.59" size="0.8128" layer="125" font="vector">C1</text>
@@ -193,7 +193,7 @@ White Silkscreen</text>
 <text x="62.23" y="17.145" size="0.8128" layer="125" font="vector" rot="R180">R8</text>
 <text x="48.387" y="13.7795" size="0.8128" layer="125" font="vector" rot="R180">R9</text>
 <text x="48.387" y="23.9395" size="0.8128" layer="125" font="vector" rot="R180">R10</text>
-<text x="81.28" y="12.7" size="1.27" layer="48" font="vector" ratio="10" rot="R90">Green Header</text>
+<text x="81.28" y="12.7" size="1.27" layer="21" font="vector" ratio="10" rot="R90">Green Header</text>
 <wire x1="22.86" y1="29.21" x2="25.4" y2="29.21" width="0" layer="46"/>
 <wire x1="78.74" y1="29.21" x2="83.82" y2="29.21" width="0" layer="46"/>
 <wire x1="31.115" y1="38.608" x2="36.195" y2="36.83" width="0" layer="19"/>
@@ -206,12 +206,12 @@ White Silkscreen</text>
 <text x="73.533" y="33.655" size="1.778" layer="21" rot="R90">Turtle</text>
 <text x="77.343" y="43.942" size="1.016" layer="21" rot="R180">Rev</text>
 <text x="77.343" y="40.767" size="1.016" layer="21" rot="R180">Norm</text>
-<text x="33.274" y="45.212" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
+<text x="35.179" y="45.212" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="38.481" y="40.767" size="1.778" layer="22" font="vector" rot="MR180">Turtle
 Tortoise Driver</text>
 <text x="41.021" y="35.306" size="1.016" layer="21">Occ</text>
 <text x="29.718" y="35.814" size="0.8128" layer="21" font="vector" rot="R90">2020-08</text>
-<text x="22.86" y="31.75" size="1.27" layer="48" font="vector" ratio="10" rot="R90">Green Soldermask
+<text x="22.86" y="31.75" size="1.27" layer="21" font="vector" ratio="10" rot="R90">Green Soldermask
 White Silkscreen</text>
 <text x="77.343" y="34.417" size="1.016" layer="21" rot="R180">Mot</text>
 <text x="54.61" y="41.91" size="0.8128" layer="125" font="vector">C1</text>
@@ -232,7 +232,7 @@ White Silkscreen</text>
 <text x="62.23" y="37.465" size="0.8128" layer="125" font="vector" rot="R180">R8</text>
 <text x="48.387" y="34.0995" size="0.8128" layer="125" font="vector" rot="R180">R9</text>
 <text x="48.387" y="44.2595" size="0.8128" layer="125" font="vector" rot="R180">R10</text>
-<text x="81.28" y="33.02" size="1.27" layer="48" font="vector" ratio="10" rot="R90">Green Header</text>
+<text x="81.28" y="33.02" size="1.27" layer="21" font="vector" ratio="10" rot="R90">Green Header</text>
 <wire x1="78.74" y1="49.53" x2="83.82" y2="49.53" width="0" layer="46"/>
 <wire x1="31.115" y1="58.928" x2="36.195" y2="57.15" width="0" layer="19"/>
 <text x="27.686" y="54.991" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
@@ -244,12 +244,12 @@ White Silkscreen</text>
 <text x="73.533" y="53.975" size="1.778" layer="21" rot="R90">Turtle</text>
 <text x="77.343" y="64.262" size="1.016" layer="21" rot="R180">Rev</text>
 <text x="77.343" y="61.087" size="1.016" layer="21" rot="R180">Norm</text>
-<text x="33.274" y="65.532" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
+<text x="35.179" y="65.532" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="38.481" y="61.087" size="1.778" layer="22" font="vector" rot="MR180">Turtle
 Tortoise Driver</text>
 <text x="41.021" y="55.626" size="1.016" layer="21">Occ</text>
 <text x="29.718" y="56.134" size="0.8128" layer="21" font="vector" rot="R90">2020-08</text>
-<text x="22.86" y="52.07" size="1.27" layer="48" font="vector" ratio="10" rot="R90">Green Soldermask
+<text x="22.86" y="52.07" size="1.27" layer="21" font="vector" ratio="10" rot="R90">Green Soldermask
 White Silkscreen</text>
 <text x="77.343" y="54.737" size="1.016" layer="21" rot="R180">Mot</text>
 <text x="54.61" y="62.23" size="0.8128" layer="125" font="vector">C1</text>
@@ -270,7 +270,7 @@ White Silkscreen</text>
 <text x="62.23" y="57.785" size="0.8128" layer="125" font="vector" rot="R180">R8</text>
 <text x="48.387" y="54.4195" size="0.8128" layer="125" font="vector" rot="R180">R9</text>
 <text x="48.387" y="64.5795" size="0.8128" layer="125" font="vector" rot="R180">R10</text>
-<text x="81.28" y="53.34" size="1.27" layer="48" font="vector" ratio="10" rot="R90">Green Header</text>
+<text x="81.28" y="53.34" size="1.27" layer="21" font="vector" ratio="10" rot="R90">Green Header</text>
 <wire x1="22.86" y1="69.85" x2="25.4" y2="69.85" width="0" layer="46"/>
 <wire x1="78.74" y1="69.85" x2="83.82" y2="69.85" width="0" layer="46"/>
 <wire x1="31.115" y1="79.248" x2="36.195" y2="77.47" width="0" layer="19"/>
@@ -283,12 +283,12 @@ White Silkscreen</text>
 <text x="73.533" y="74.295" size="1.778" layer="21" rot="R90">Turtle</text>
 <text x="77.343" y="84.582" size="1.016" layer="21" rot="R180">Rev</text>
 <text x="77.343" y="81.407" size="1.016" layer="21" rot="R180">Norm</text>
-<text x="33.274" y="85.852" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
+<text x="35.179" y="85.852" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="38.481" y="81.407" size="1.778" layer="22" font="vector" rot="MR180">Turtle
 Tortoise Driver</text>
 <text x="41.021" y="75.946" size="1.016" layer="21">Occ</text>
 <text x="29.718" y="76.454" size="0.8128" layer="21" font="vector" rot="R90">2020-08</text>
-<text x="22.86" y="72.39" size="1.27" layer="48" font="vector" ratio="10" rot="R90">Green Soldermask
+<text x="22.86" y="72.39" size="1.27" layer="21" font="vector" ratio="10" rot="R90">Green Soldermask
 White Silkscreen</text>
 <text x="77.343" y="75.057" size="1.016" layer="21" rot="R180">Mot</text>
 <text x="54.61" y="82.55" size="0.8128" layer="125" font="vector">C1</text>
@@ -309,7 +309,7 @@ White Silkscreen</text>
 <text x="62.23" y="78.105" size="0.8128" layer="125" font="vector" rot="R180">R8</text>
 <text x="48.387" y="74.7395" size="0.8128" layer="125" font="vector" rot="R180">R9</text>
 <text x="48.387" y="84.8995" size="0.8128" layer="125" font="vector" rot="R180">R10</text>
-<text x="81.28" y="73.66" size="1.27" layer="48" font="vector" ratio="10" rot="R90">Green Header</text>
+<text x="81.28" y="73.66" size="1.27" layer="21" font="vector" ratio="10" rot="R90">Green Header</text>
 </plain>
 <libraries>
 <library name="SPCoast">
